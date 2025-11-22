@@ -1,0 +1,26 @@
+{
+  "name": "kfe-hostinger-mcp",
+  "version": "1.0.0",
+  "description": "Hostinger API MCP Server for Claude Code",
+  "type": "module",
+  "main": "mcp-server/hostinger-server.js",
+  "scripts": {
+    "start": "node mcp-server/hostinger-server.js",
+    "install-deps": "npm install"
+  },
+  "keywords": [
+    "mcp",
+    "hostinger",
+    "api",
+    "claude",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

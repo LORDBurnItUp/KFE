@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "hostinger-api": {
+      "command": "node",
+      "args": [
+        "mcp-server/hostinger-server.js"
+      ],
+      "env": {
+        "HOSTINGER_API_TOKEN": "${HOSTINGER_API_TOKEN}"
+      }
+    }
+  }
+}
